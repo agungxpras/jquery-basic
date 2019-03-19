@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery-3.2.1.min.js"></script>
+<script>
+
+  $(document).ready(function(){
+    $("#kotak1").on({
+        dblclick: function(){
+            $("#kotak1").css("background", "red");
+        }  
+    });
+    $("#kotak2").on({
+        dblclick: function(){
+            $("#kotak2").css("background", "red");
+        }  
+    });
+
+	$("#kotak3").on({
+        dblclick: function(){
+            $("#kotak3").css("background", "red");
+        }  
+    });
+
+	$("#kotak4").on({
+        dblclick: function(){
+            $("#kotak4").css("background", "red");
+        }  
+    });
+	
+	$("#kotak4").click(function(){
+            $("#kotak4").css("background", "yellow");
+         });
+  
+
+
+});
+</script>
+<style type="text/css">
+      #kotak1{
+        width:150px;
+        height:150px;
+        background:yellow;
+
+      }
+      #kotak2{
+        width:150px;
+        height:150px;
+        background:yellow;
+      }
+       #kotak3{
+        width:150px;
+        height:150px;
+        background:yellow;
+
+      }
+       #kotak4{
+        width:150px;
+        height:150px;
+        background:yellow;
+
+      }
+	  
+
+</style>
+</head>
+
+<body>
+<table>
+<tr>
+<th>
+<div id="kotak1"></div></th>
+<th></th>
+<th>
+<div id="kotak2"></div></th>
+<th></th>
+<th>
+<div id="kotak3"></div></th>
+<th></th>
+<th>
+<div id="kotak4"></div></th>
+</tr>
+</table>
+    
+</body>
+</html>

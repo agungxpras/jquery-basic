@@ -1,0 +1,41 @@
+<html>
+<head>
+<script type = "text/javascript" src="jquery-3.2.1.min.js">
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+      $(".sembunyi").click(function(){
+        $("#foto").hide("slow");
+      });
+	  
+      $(".tampil").click(function(){
+        $("#foto").show("slow");
+      });
+	  
+	  $(".dua").click(function(){
+        $("#pic").hide("slow");
+      });
+	  
+	   $(".lagi").click(function(){
+        $("#pic").show("slow");
+      });
+	  
+    });
+  </script>
+
+</head>
+<body>
+<button class="sembunyi">Sembunyikan</button>
+<button class="tampil">Tampilkan</button>
+
+<br>
+<br>
+<button class="dua">Sembunyikan</button>
+<button class="lagi">Tampilkan</button>
+
+<p><img id="foto" src="peluk.jpg"></p>
+<p><img id="pic" src="Koala.jpg"></p>
+
+
+</body>
+</html>
